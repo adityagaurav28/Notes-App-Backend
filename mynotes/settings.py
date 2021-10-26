@@ -23,9 +23,9 @@ BASE_DIR = Path(__file__).resolve().parent.parent
 SECRET_KEY = 'django-insecure-oho^fx5%#*)hnrtb@3s@)@xdk5d-@j50m7+vh&wwv5813e%0!y'
 
 # SECURITY WARNING: don't run with debug turned on in production!
-DEBUG = False
+DEBUG = True
 
-ALLOWED_HOSTS = ['the-notes-app-backend.herokuapp.com','127.0.0.1']
+ALLOWED_HOSTS = []
 
 
 # Application definition
@@ -131,7 +131,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://192.168.0.105:3000',
-    'https://the-notes-app.netlify.app/',
+    'https://the-notes-app.netlify.app',
 ]
 
 import django_heroku
