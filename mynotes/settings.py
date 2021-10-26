@@ -131,7 +131,7 @@ DEFAULT_AUTO_FIELD = 'django.db.models.BigAutoField'
 CORS_ALLOWED_ORIGINS = [
     'http://localhost:3000',
     'http://192.168.0.105:3000',
-    'https://the-notes-app.netlify.app',
+    'https://the-notes-app.netlify.app/',
 ]
 
 import django_heroku
